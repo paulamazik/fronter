@@ -1,0 +1,426 @@
+body#login{
+    margin: 0;
+    padding: 0;
+    background-color: #EA5045;
+    font-family: sans-serif;
+}
+
+.loginbox{
+    width: 320px;
+    height:420px;
+    background: #000;
+    color: #fff;
+    margin-left: auto;
+    margin-right:auto;
+    width:20em;
+    border-radius: 100px;
+    
+}
+
+h1{
+    margin: 0;
+    padding:0 0 20px;
+    text-align: center;
+    font-size: 25px;  
+   
+    
+}
+
+.loginbox p{
+    margin:0;
+    padding:0;
+    font-weight:bold;
+}
+
+.loginbox input{
+    width:300px;
+    margin-bottom: 25px;
+    
+}
+
+.loginbox input[type="text"], input[type="password"]
+
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+        height: 35px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.loginbox #submit
+{
+    border: none;
+    outline:none;
+    height: 50px;
+    background: #EA5045;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 100px;
+    width:250px;
+    
+    
+}
+
+
+.loginbox #submit:hover
+{
+    cursor:pointer;
+    background: #0762C8;
+    color:#000;
+  
+}
+
+.loginbox a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: white;
+    margin-top: 40px;
+    position: relative;
+}
+
+
+.profilebox {
+  
+    width: 400px;
+    height:200px;
+    background: #fff;
+    color: #fff;
+    margin-left: auto;
+    margin-right:auto;
+    width:20em;
+    
+}
+
+
+body#profile{
+    background:white;
+   
+}
+
+.banner {
+    background-color: #EA5045;
+    width: 400px;
+    height: 150px;
+    margin-left: -8px;
+}
+
+.messages {
+    background-color: #EA5045;
+    margin-left: -8px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+    border-radius: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+
+.profile {
+    width:200px;
+    height:200px;
+    margin-left: 30px;
+}
+
+.name {
+    margin-top: -200px;
+    font-size: 23px;
+    font-family: sans-serif;
+    margin-left: 150px;
+}
+.bio {
+    margin-top: 25px;
+    font-size: 16px;
+    font-family: sans-serif;
+
+    margin-left: 240px;
+    margin-bottom: 150px;
+}
+
+.yt {
+    margin-left: -10px;
+}
+.in{
+    margin-left:-10px;
+}
+
+.insta {
+    margin-left: 15px;
+}
+.portfolio{
+    font-size: 30px;
+    font-family: sans-serif;
+
+}
+
+h2{
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: #EA5045;
+    color: white;
+    width: 170px;
+     border-radius: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+.first{
+    width:200px;
+    height:200px;
+    margin-left: 20px;
+}
+
+h3{
+      font-size: 20px;
+    font-family: sans-serif;
+    margin-top:-300px;
+    padding: 130px;
+    margin-left: 130px;
+}
+
+h4{
+   font-size: 20px;
+    font-family: sans-serif;
+    margin-top:-50px;
+    margin-bottom: 20px;
+
+}
+p1{
+   font-size: 15px;
+    font-family: sans-serif;
+    
+ 
+}
+
+.second {
+     width:200px;
+    height:200px;
+    margin-left: 160px;
+}
+
+h5{
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 240px;
+    margin-left: -200px;
+    margin-top: -400px;
+}
+
+h6{
+     font-size: 20px;
+    font-family: sans-serif;
+    margin-top:-150px;
+    margin-bottom: 20px;
+    
+    
+}
+
+p2{
+    font-size: 15px;
+    font-family: sans-serif;
+    
+}
+
+body#message{
+    text-align:center;
+    width: 320px;
+    height:420px;
+background:white;
+    color: #fff;
+    margin-left: auto;
+    margin-right:auto;
+    width:20em;
+}
+
+.contact{
+   
+    width: 320px;
+    height:500px;
+background-color: white;
+    color: #000;
+    margin-left:-90px;
+    margin-right:auto;
+    width:20em;
+    font-family: sans-serif;
+    font-size: 25px;
+  
+}
+
+form{
+    margin-top: 0px;
+    animation: moving 3s ease-in-out;
+}
+
+@keyframes moving {
+    0% { margin-top: 0px;}
+    50% { margin-top: 100px;}
+    100% { margin-top: 0px;}
+}
+.form-control{
+    width:300px;
+    background: white;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: black;
+    font-size: 15px;
+    margin-bottom: 16px;
+    background-color: transparent;
+
+}
+
+h8{
+  font-size: 13px;
+    font-family: sans-serif;
+  
+    margin-left: -270px;
+    margin-right: 20px;
+ color: black;
+}
+
+input{
+    height:45px;
+}
+
+.send{
+    background: #EA5045;
+    border-bottom-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+     border-radius: 100px;
+    
+}
+
+.send:hover{
+    background-color:#0762C8;
+    cursor: pointer;
+}
+.banner2 {
+    background-color: #EA5045;
+    width: 500px;
+    height: 150px;
+    margin-left: -40px;
+    margin-top: -10px;
+    margin-right: 20px
+}
+
+a{
+   font-size: 13px;
+    font-family: sans-serif;
+  
+    color: black; 
+    margin-left: -270px;
+    margin-right: 20px;
+ color: black;  
+    
+}
+
+h9{
+      background-color: #EA5045;
+   font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+        padding-right:100px;
+    width: 100%;
+}
+
+h10{
+    font-family: sans-serif;
+    font-size:25px;
+}
+
+
+h11 {
+     font-family: sans-serif;
+    font-size:25px;
+    background: #0762C8;
+   padding: 20px;
+     border-radius: 30px;
+}
+
+h12 {
+    font-family: sans-serif;
+    font-size:25px;
+    background: #EA5045;
+   padding: 20px;
+     border-radius: 30px;
+    
+}
+
+
+#next{
+    font-family: sans-serif;
+    font-size:25px;
+    background: black;
+    color: white; 
+   padding: 20px;
+     border-radius: 30px;
+    margin-left: 250px;
+}
+
+#kea{
+    margin-left:-90px
+}
+
+
+#main {
+     font-family: sans-serif;
+    font-size:25px;
+    background: black;
+    color: white; 
+   padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+     border-radius: 30px;
+    margin-left: 3px;
+}
+
+
+h13 {
+    font-family: sans-serif;
+    font-size:30px;
+    color: white;
+    
+  border: 120px white;
+   
+    padding: 6px;
+
+}
+
+h14{
+    font-family: sans-serif;
+    font-size:27px;
+    color: white;
+    
+}
+
+#back {
+     font-family: sans-serif;
+    font-size:25px;
+    background: black;
+    color: white; 
+   padding: 20px;
+     border-radius: 30px;
+    margin-left: 2px;
+    
+}
+
+#kealogo {
+    margin-left:-40px
+}
+
